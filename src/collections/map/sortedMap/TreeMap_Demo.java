@@ -6,11 +6,11 @@ public class TreeMap_Demo {
     public static void main(String[] args) {
         TreeMap<Integer , String> treeMap =new TreeMap<>();
 
-        treeMap.put(1,"sumi");
-        treeMap.put(3,"ritu");
-        treeMap.put(8,"miki");
-        treeMap.put(5,"bibhu");
-        treeMap.put(2,"bablu");
+        treeMap.put(1,"Sumi");
+        treeMap.put(3,"Ritu");
+        treeMap.put(8,"Miki");
+        treeMap.put(5,"Bibhu");
+        treeMap.put(2,"Bablu");
 
         System.out.println(treeMap.firstEntry());   //least key and it's value
         System.out.println(treeMap.lastEntry());   //greatest key and it's value
