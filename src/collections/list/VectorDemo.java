@@ -4,7 +4,7 @@ import java.util.Vector;
 
 public class VectorDemo {
     public static void main(String[] args) {
-        Vector<Integer> vt = new Vector<>(3,2);
+        Vector<Integer> vt = new Vector<>(6,7);
         vt.add(11);
         vt.add(22);
         vt.add(33);
