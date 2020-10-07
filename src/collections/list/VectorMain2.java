@@ -23,21 +23,22 @@ public class VectorMain2 {
         System.out.println(vector);
 
         vector1.add(111);
-        vector1.add(111);
-        vector1.add(111);
-        vector1.add(111);
+        vector1.add(222);
+        vector1.add(333);
+        vector1.add(444);
         vector.remove("11");
         vector.remove(1);
-        vector.removeAllElements();
-        vector.set(2,12);
+//        vector.removeAllElements();
+//        vector.set(2,12);
 
-        vector.add(2,15);
+//        vector.add(2,15);
         vector.indexOf(11);
 
         Object obj = vector.clone();
-        System.out.println(obj); // [ 11 12 13]
+        System.out.println(obj);
         Collections.copy(vector,vector1);
-        System.out.println(vector); // [111,111,111,111]
+        System.out.println(vector);
+        System.out.println(vector1);
 
         System.out.println(vector.removeAll(vector1));  // true
         System.out.println(vector);
@@ -52,19 +53,13 @@ public class VectorMain2 {
             System.out.println(vector.get(i));
         }
 
-        System.out.println("---------------------------------------------");
         for (int num : vector)
             System.out.println(num);
-
-
-        System.out.println("---------------------------------------------");
 
         Iterator itr = vector.iterator();
         while (itr.hasNext()){
             System.out.println(itr.next());
         }
-
-        System.out.println("---------------------------------------------");
 
         Enumeration en = vector.elements();
         while (en.hasMoreElements()){
