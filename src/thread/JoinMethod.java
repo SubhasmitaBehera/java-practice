@@ -19,12 +19,12 @@ public class JoinMethod extends Thread{
         JoinMethod obj3 = new JoinMethod();
 
         obj1.start();
-//        try{
-//            obj1.join();
-//        }
-//        catch (InterruptedException ie){
-//            System.out.println(ie);
-//        }
+        try{
+            obj1.join();
+        }
+        catch (InterruptedException ie){
+            System.out.println(ie);
+        }
         obj2.start();
         obj3.start();
     }

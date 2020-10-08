@@ -4,7 +4,7 @@ class X extends Thread{
     public void run(){
         for (int i = 1 ; i <=5 ; i++ ){
             if (i==1)
-                Thread.yield();
+                Thread.yield();   //Stops temporarily the  execution of current thread
             System.out.println("From thread X : i = " +i);
         }
         System.out.println("Exit from X...");
