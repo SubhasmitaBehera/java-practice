@@ -3,7 +3,9 @@ package thread;
 public class NamingOfThread extends Thread {
     public void run() {
         Thread.yield();
-        System.out.println(Thread.currentThread().getName()); //Returns the name of the Currently running thread
+        System.out.println("Name of thread:- "+Thread.currentThread().getName()); //Returns the name of the Currently running thread
+        System.out.println("Active thread count :- "+Thread.activeCount());  //returns the no of active threads
+        System.out.println("IS interrupted:- "+Thread.currentThread().isInterrupted());  //returns false if not interupted
         System.out.println("Running...");
     }
 
@@ -15,6 +17,7 @@ public class NamingOfThread extends Thread {
         t1.start();
         t2.start();
         t3.start();
+        t1.interrupt();
 
         System.out.println("____________________________________________");
         System.out.println("Name of First thread by default : " +t1.getName());

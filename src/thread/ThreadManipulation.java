@@ -1,6 +1,6 @@
 package thread;
 
-class X extends Thread{
+class X implements Runnable{
     public void run(){
         for (int i = 1 ; i <=5 ; i++ ){
             if (i==1)
@@ -38,9 +38,10 @@ class Z extends Thread{
 public class ThreadManipulation {
     public static void main(String[] args) {
         X obj1 = new X();
+        Thread thread = new Thread(obj1);
         Y obj2 = new Y();
         Z obj3 = new Z();
-        obj1.start();
+        thread.start();
         obj2.start();
         obj3.start();
     }

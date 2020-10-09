@@ -20,7 +20,7 @@ public class JoinMethod extends Thread{
 
         obj1.start();
         try{
-            obj1.join();
+            obj1.join();  //'join' method will be always in try-catch . It makes non-synchronise to synchronise.
         }
         catch (InterruptedException ie){
             System.out.println(ie);
