@@ -1,4 +1,4 @@
-package thread;
+package thread.ThreadManipulation;
 
 class X implements Runnable{
     public void run(){
