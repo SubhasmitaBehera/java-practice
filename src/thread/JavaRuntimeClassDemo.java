@@ -9,7 +9,7 @@ public class JavaRuntimeClassDemo {  //Runtime
         System.out.println("Free memory: " +Runtime.getRuntime().freeMemory());
         System.out.println("Total memory: " +Runtime.getRuntime().totalMemory());
 
-//        Runtime.getRuntime().exec("shutdown -r -t 10");  //It will shutdown the system.
+        Runtime.getRuntime().exec("shutdown -r -t 10");  //It will shutdown the system.
         for (int i=0; i<10000; i++){
             new JavaRuntimeClassDemo();
         }
