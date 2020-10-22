@@ -1,4 +1,4 @@
-package thread.ThreadManipulation;
+package thread.threadManipulation;
 
 //thread manipulation using anonymous class (using runnable interface)
 public class ThreadManipulation2 {

@@ -1,4 +1,4 @@
-package thread.ThreadManipulation;
+package thread.threadManipulation;
 
 // Another way to calling multiple threads using anonymous class (using thread class)
 public class ThreadManipulation1 {
