@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class GCD {
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         System.out.print("Enter two numbers to find GCD :- ");
         Scanner Obj = new Scanner(System.in);
