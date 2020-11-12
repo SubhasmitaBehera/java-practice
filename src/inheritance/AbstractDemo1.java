@@ -20,7 +20,7 @@ class Two extends MyClass {
 }
 
 
-public class AbsDemo1 {
+public class AbstractDemo1 {
     public static void main(String[] args) {
         One ob1 = new One();
         Two ob2 = new Two();
