@@ -1,4 +1,4 @@
-package interface_class;
+package oops.interface_class;
 
 interface Myclass{
     static void calculate(double x){

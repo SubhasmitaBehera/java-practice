@@ -1,4 +1,4 @@
-package interface_class;
+package oops.interface_class;
 
 import java.util.Scanner;
 
