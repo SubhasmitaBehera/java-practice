@@ -1,20 +1,20 @@
-package inheritance;
+package polymerphism;
 
 class A {
     void m1(){
-        System.out.println("This is inheritance.A's m1...");
+        System.out.println("This is polymerphism.A's m1...");
     }
 }
 
 class B extends A {
     void m1(){
-        System.out.println("This is inheritance.B's m1...");
+        System.out.println("This is polymerphism.B's m1...");
     }
 }
 
 class C extends A {
     void m1(){
-        System.out.println("This is inheritance.C's m1...");
+        System.out.println("This is polymerphism.C's m1...");
     }
 }
 
@@ -25,7 +25,7 @@ class DynamicMethodDispatch {
         C c = new C();
         A d = new C();
         d.m1();
-//        inheritance.A ref ;0
+//        polymerphism.A ref ;0
 //        ref = a ;
         a.m1();
 //        ref =b;
