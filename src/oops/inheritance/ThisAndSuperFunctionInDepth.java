@@ -1,4 +1,4 @@
-package inheritance;
+package oops.inheritance;
 
 class Demoo4{
     Demoo4(){

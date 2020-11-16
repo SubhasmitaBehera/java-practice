@@ -1,4 +1,4 @@
-package inheritance;
+package oops.abstrct;
 
 abstract class MyClass{
     abstract void calculate(double X);
