@@ -1,3 +1,5 @@
+package basics;
+
 import java.util.Scanner;
 
 public class Fibonacci {
@@ -9,7 +11,7 @@ public class Fibonacci {
         System.out.println("Enter a range to see fibonacci series:- ");
         int num= sc.nextInt();
         int temp= num;
-        System.out.println("Fibonacci series of first " +num +" number is :-");
+        System.out.println("basics.Fibonacci series of first " +num +" number is :-");
         if (num==1){
             System.out.println("x");
         }
