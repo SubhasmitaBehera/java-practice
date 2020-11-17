@@ -14,7 +14,7 @@ public class ArrayMain3
         int[][] a = new int[n][n];
         int[][] b = new int[n][n];
         int[][] c = new int[n][n];
-        System.out.println("Enter the elements of 1st martix row wise \n");
+        System.out.println("Enter the elements of 1st martix row wise:- \n");
         for (int i = 0; i < n; i++)
         {
             for (int j = 0; j < n; j++)
