@@ -9,13 +9,13 @@ public class ThreeD_ArrayMain {
         int even = 0,odd = 0;
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the no of Array you want : ");
+        System.out.print("Enter the no of Array you want :- ");
         int array = sc.nextInt();
 
-        System.out.print("Enter the no of row you want : ");
+        System.out.print("Enter the no of row you want :- ");
         int row = sc.nextInt();
 
-        System.out.print("Enter the no of column you want : ");
+        System.out.print("Enter the no of column you want :- ");
         int col = sc.nextInt();
 
         int[][][] arr_3D = new int[10][20][30];
