@@ -15,7 +15,7 @@ public class FileOutputStreamDemo {
             FileOutputStream fos = new FileOutputStream("file.txt"); // file create
 
             fos.write(67);             // integer, -1 to 255(ASCII) - "C"
-            fos.write(32);             // integer, -1 to 255(ASCII) - "C"
+            fos.write(32);             // integer, -1 to 255(ASCII) - space
             String s = "Hello World...";     // 0 - 10
             byte[] arr = s.getBytes();
             fos.write(arr);               // byte[] - byte array

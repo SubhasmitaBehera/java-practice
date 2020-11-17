@@ -4,8 +4,9 @@ package fileIO.streams.file;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 
-public class FileInputStreamDemo {
+public class FileInputStreamDemo  {
     // read operation
     // with binary - oriented file
     public static void main(String[] args) throws IOException {
@@ -13,14 +14,14 @@ public class FileInputStreamDemo {
         int availableBytes = inputStream.available();
 //        byte[] b = new byte[availableBytes];
         System.out.println(availableBytes);
-//        int j;
-//        while ( (j = inputStream.read()) != -1){
-//            System.out.print((char)j);
-//        }
-        for (int i = 0; i < availableBytes; i++)
-        {
-            int j = inputStream.read(); // read() inside a loop, will automatically loop
-            System.out.print((char)j); // CH
+        int j;
+        while ( (j = inputStream.read()) != -1){
+            System.out.print((char)j);
         }
+//        for (int i = 0; i < availableBytes; i++)
+//        {
+//            int j = inputStream.read(); // read() inside a loop, will automatically loop
+//            System.out.print((char)j); // CH
+//        }
     }
 }

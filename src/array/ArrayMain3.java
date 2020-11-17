@@ -1,7 +1,6 @@
 package array;
 
 
-
 import java.util.Scanner;
 
 public class ArrayMain3
