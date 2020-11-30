@@ -2,7 +2,7 @@ package annotations.predefined;
 
 
 import java.util.ArrayList;
-@FunctionalInterface
+//@FunctionalInterface
 interface Abc1{
     public void show();
 //    public void display();
@@ -10,7 +10,7 @@ interface Abc1{
 }
 
 class P{
-    @Deprecated
+//    @Deprecated
 
     public  void show(){
 
@@ -47,7 +47,7 @@ class Q extends P{
 }
 
 
-public class AnnotationMain {
+public class  AnnotationMain {
     public static void main(String[] args) {
        P obj = new P();
        obj.show();

@@ -7,8 +7,8 @@ interface A{
 
 enum Day implements A
 {
-    MONDAY, TUESDAY, WEDNESDAY,
-    THURSDAY, FRIDAY, SATURDAY,SUNDAY;
+    MONDAY, TUESDAY, WEDNESDAY,THURSDAY, FRIDAY, SATURDAY,SUNDAY;
+
     //    Day(){}
     public void show() {
         System.out.println("Show Implements from class A to \"enum\"");
