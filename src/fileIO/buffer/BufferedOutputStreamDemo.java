@@ -1,4 +1,4 @@
-package fileIO.streams.buffer;
+package fileIO.buffer;
 
 import java.io.BufferedOutputStream;
 import java.io.FileOutputStream;
