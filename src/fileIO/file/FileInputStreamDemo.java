@@ -1,10 +1,9 @@
-package fileIO.streams.file;
+package fileIO.file;
 
 //import arrays.Arrays;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 
 public class FileInputStreamDemo  {
     // read operation
