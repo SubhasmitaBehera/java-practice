@@ -1,4 +1,4 @@
-package fileIO.streams.sequentialinputstream;
+package fileIO.sequentialinputstream;
 
 import java.io.FileInputStream;
 import java.io.IOException;

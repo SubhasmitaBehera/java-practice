@@ -1,4 +1,4 @@
-package fileIO.streams.stream;
+package fileIO.stream;
 
 import java.io.IOException;
 import java.util.Scanner;
