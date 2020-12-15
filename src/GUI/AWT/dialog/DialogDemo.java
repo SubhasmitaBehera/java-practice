@@ -9,7 +9,7 @@ public class DialogDemo {
     public static void main(String[] args) {
         Frame f = new Frame("Dialog Demo");
         d = new Dialog(f,"Dialog", true);
-//        d.setBounds(200,200,500,500);
+        d.setBounds(200,200,500,500);
         d.setLayout(new FlowLayout());
 
 
