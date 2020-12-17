@@ -20,7 +20,7 @@ public class ComponentsDemo{
     public static void main(String[] args) {
         Frame f = new Frame();
         Button btn = new Button("Button");
-        btn.setBounds(100, 50, 80, 30);
+        btn.setBounds(100 , 50, 80, 30);
         f.add(btn);
         f.setSize(300, 300); // size set for frame(container)
         f.setLayout(null);
