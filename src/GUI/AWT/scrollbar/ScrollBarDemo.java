@@ -17,7 +17,7 @@ public class ScrollBarDemo {
         scb.addAdjustmentListener(new AdjustmentListener() {
             @Override
             public void adjustmentValueChanged(AdjustmentEvent e) {
-                l.setText("Scroll value : "+scb.getValue());
+                l.setText("Scroll value :- "+scb.getValue());
             }
         });
 
