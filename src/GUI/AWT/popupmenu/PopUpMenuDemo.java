@@ -33,21 +33,21 @@ public class PopUpMenuDemo {
         m1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                l.setText("Item selected is : "+m1.getLabel());
+                l.setText("Item selected is :- "+m1.getLabel());
             }
         });
 
         m2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                l.setText("Item selected is : "+m2.getLabel());
+                l.setText("Item selected is :- "+m2.getLabel());
             }
         });
 
         m3.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                l.setText("Item selected is : "+m3.getLabel());
+                l.setText("Item selected is :- "+m3.getLabel());
             }
         });
 
