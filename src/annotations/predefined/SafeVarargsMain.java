@@ -5,7 +5,7 @@ import java.util.List;
 public class SafeVarargsMain {
     // Applying @SaveVarargs annotation
     @SafeVarargs
-    private void display(List<String>... products) { // Not using @SaveVarargs
+    private final void display(List<String>... products) { // Not using @SaveVarargs
         for (List<String> product : products) {
             System.out.println(product);
         }
